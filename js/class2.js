@@ -10,6 +10,8 @@ console.log ("Te recomendamos que leas FRUITS BASKET ");
  console.log ("Te recomendamos que leas CITRUS ");
 }  else if ((edad >="18") && (generoManga== "yaoi")) {
     console.log ("Te recomendamos que leas JUNJO ROMANTICA");
+} else if ((edad < "18") && (generoManga == "yaoi")||(generoManga=="yuri")){
+    console.log("Lo sentimos, este género es para mayores de 18 años")
 } else {
-    console.log ("Este género es para mayores de 18 años");
+    console.log ("Ah ah ah… you didn’t say the magic word");
 }
